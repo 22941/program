@@ -8,14 +8,3 @@ void err_exit(char *s){
 	printf("USAGE: *s is faile\n");
 	exit(1);
 }
-
-typedef struct user{
-	int id;
-	char name[8];
-	char htel[14];
-	char tel[12];
-}user;
-
-void input();
-void save(user *use);
-char *mysort();
