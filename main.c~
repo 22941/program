@@ -1,8 +1,0 @@
-#include"myfun.c"
-int main(){
-	char *p;
-	input();
-	p = mysort();
-	printf("%c",p[0]);
-	return 0;
-}
